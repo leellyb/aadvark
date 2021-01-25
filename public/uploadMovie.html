@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aardvark</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/styl.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/public/uploadmovie.html">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="container">
+    <h1 class="header">MOVIE HUB</h1>
+	<a href="../index/proj.html" target="_blank" class="btn btn-primary" role="button">Back to Homepage</a>
+	<form action="/action_page.php">    
+    <div class="row">
+      <div class="col-sm-6">
+      	<label for="uname">Movie Name:</label>
+      	<input type="text" class="form-control" id="movie" placeholder="Movie Name" name="movie"></div>
+      <div class="col-sm-6">
+      	<label for="uname">Lead Actor:</label>
+        <input type="text" class="form-control" id="actor" placeholder="Lead Actor" name="actor"></div>
+        <div class="col-sm-6">
+        	<!-- put a dropdown navbar -->
+        	<div class="form-group">
+        	<label for="duration">Duration:</label>
+        <input list="duration" class="form-control" id="duration" placeholder="Time in Hours" name="duration">
+        <datalist id="duration">
+        	<option value="2h">2 hours</option>
+        	<option value="1h30">1h 30min</option>
+        	<option value="2h">2 hours</option>
+        	
+        </datalist>
+    </div>
+
+
+
+
+
+    </div>
+<div class="col-sm-6">
+	<!-- attach a browser button -->
+      	<label for="uname">Movie Poster:</label>
+        <input type="file" class="form-control" id="Poster" name="Poster"></div>
+        <div class="col-sm-6">
+      	<label for="uname">Ratings:</label>
+        <input type="text" class="form-control" id="rate" placeholder="PG" name="rate"></div>
+         <div class="col-sm-6">
+      	<label for="uname">Genre:</label>
+        <input type="text" class="form-control" id="Genre" placeholder="action" name="Genre"></div>
+
+
+    
+        	
+        	
+
+
+        	
+        </div>
+        
+        		
+
+        		
+
+        		
+        	</div>
+        	
+        </div>
+      </div>
+    </div>
+ <div class="container"> 
+<div class="row">
+  <div class="col-sm-6"><button class="btn btn-block btn-primary">Submit Movie</button></div>
+<div class="col-sm-6"><button class="btn btn-block btn-danger">Reset</button></div>
+</div>
+  </form>
+
+</body>
+</html>
+<!-- the upload button to be clickable -->
+<

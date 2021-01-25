@@ -1,0 +1,101 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:rgba(0,0,0,0.5);
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(../images/erimages/girl.jpg);
+	background-position: center;
+	background-size: cover;
+	
+	background-image: url(../images/erimages/girl.jpg);
+background-repeat:no-repeat; 
+	}
+
+label{
+	font-weight: 800;
+	color: black;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+	/*attach background image*/
+	.header {
+		font-family: serif;
+		text-align:center;
+		color: white;
+		font-weight: 800;
+		text-decoration: underline;
+		margin-top: 2rem;
+
+	}
+
+	nav {
+		margin: 30px;
+		padding: 10px;
+		font-weight: 700;
+		
+	}
+
+	.btn {
+		margin-left: 30px;
+		margin-top: 2px;
+		margin-bottom: 20px;
+
+	}
+	.table th {
+		color: white;
+		margin-top: 20px;
+		margin-left: 40px;
+		text-decoration-color: white;
+
+		
+
+	}
+.table td{
+	color:white;
+	text-decoration-color: white;
+
+
+}
+ 
+.rounded-circle{
+	background-image: url(midsky.jpg);
+}
+.btn td {
+	margin-right: 10px;
+}
+
+.row {
+	color: black;
+	text-decoration-color: black;
+}
+/*styling form*/ 
+
+.btn {
+	margin-top: 40px;
+	margin-left: 1px;
+	margin-right: 20px;
+}
+/*carousel-inner image*/
+.carousel-inner img {
+	height: 100%;
+	width:100%;
+}
+/*error*/
+.q{height: auto; width: 100%}
+
+div {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+
+
